@@ -21,3 +21,7 @@
 >
 > > - npm run **cli:env** to run _src/cli/env_
 > > - npm run **cli:args** to run _src/cli/args_
+
+> hash
+>
+> > - npm run **hash** to run _src/hash/calcHash_
