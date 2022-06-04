@@ -13,7 +13,6 @@ const isExist = async filePath => {
     await access(filePath);
     console.error(`FS operation failed`);
     console.log(`File already exists in folder ${filePath}`);
-
     return true;
   } catch (e) {
     return false;
