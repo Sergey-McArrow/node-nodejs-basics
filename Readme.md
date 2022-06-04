@@ -2,7 +2,7 @@
 
 ---
 
-## For run Apps use following commands:
+## To run Apps use following commands:
 
 > fs
 >
@@ -20,3 +20,4 @@
 > cli
 >
 > > - npm run **cli:env** to run _src/cli/env_
+> > - npm run **cli:args** to run _src/cli/args_
