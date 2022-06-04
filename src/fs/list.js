@@ -11,8 +11,12 @@ export const list = async path => {
   try {
     const files = await readdir(path);
     for (const file of files) console.log(file);
-  } catch (err) {
-    console.error(err);
+  } catch (e) {
+    if (e.code === "ENOENT") {
+      console.log("FS operation failed");
+    } else {
+      console.log(e.message);
+    }
   }
 };
 list(pathToDir);

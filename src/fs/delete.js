@@ -15,7 +15,6 @@ export const remove = async filePath => {
   } catch (e) {
     if (e.code === "ENOENT") {
       console.log("FS operation failed");
-      console.log(e.code);
     } else {
       console.log(e.message);
     }
