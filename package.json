@@ -11,7 +11,8 @@
     "fs:list": "node src/fs/list",
     "fs:read": "node src/fs/read",
     "fs:rename": "node src/fs/rename",
-    "module" : "node src/modules/cjsToESM.mjs"
+    "module": "node src/modules/cjsToESM.mjs",
+    "cli:env": "node src/cli/env"
   },
   "repository": {
     "type": "git",

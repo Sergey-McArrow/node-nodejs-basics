@@ -16,3 +16,7 @@
 > module
 >
 > > - npm run **module** to run _src/modules/cjsToESM_
+
+> cli
+>
+> > - npm run **cli:env** to run _src/cli/env_
