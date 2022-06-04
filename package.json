@@ -14,7 +14,8 @@
     "module": "node src/modules/cjsToESM.mjs",
     "cli:env": "node src/cli/env",
     "cli:args": "node src/cli/args",
-    "hash": "node src/hash/calcHash"
+    "hash": "node src/hash/calcHash",
+    "read": "node src/streams/read"
   },
   "repository": {
     "type": "git",

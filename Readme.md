@@ -25,3 +25,7 @@
 > hash
 >
 > > - npm run **hash** to run _src/hash/calcHash_
+
+> stream
+>
+> > - npm run **read** to run _src/streams/read_
