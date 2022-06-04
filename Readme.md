@@ -29,3 +29,4 @@
 > stream
 >
 > > - npm run **read** to run _src/streams/read_
+> > - npm run **write** to run _src/streams/write_
