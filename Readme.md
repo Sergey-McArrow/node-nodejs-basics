@@ -31,3 +31,8 @@
 > > - npm run **read** to run _src/streams/read_
 > > - npm run **write** to run _src/streams/write_
 > > - npm run **transform** to run _src/streams/transform_
+
+> zip
+>
+> > - npm run **compress** to run _src/zip/compress_
+> > - npm run **decompress** to run _src/zip/decompress_
