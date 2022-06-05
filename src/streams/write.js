@@ -15,8 +15,8 @@ export const write = async filePath => {
       console.log(data);
       const writeable = createWriteStream(filePath);
       writeable.write(data);
+      stdout.write(`Введенный текст записан в ${FILE}\n`);
     }
-    process.on("exit", () => stdout.write("Удачи в изучении Node.js!"));
     process.on("SIGINT", process.exit);
   });
 };

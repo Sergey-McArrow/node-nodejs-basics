@@ -16,7 +16,8 @@
     "cli:args": "node src/cli/args",
     "hash": "node src/hash/calcHash",
     "read": "node src/streams/read",
-    "write": "node src/streams/write"
+    "write": "node src/streams/write",
+    "transform": "node src/streams/transform"
   },
   "repository": {
     "type": "git",
